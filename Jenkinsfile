@@ -11,11 +11,7 @@ pipeline
             echo 'Building the project'
            }
         }
-    }
-       
-       
-   stages
-   {
+      
        stage('Test')
        {
            steps 
@@ -23,10 +19,7 @@ pipeline
             echo 'Testing the application'
            }
         }
-    }    
-           
-   stages
-   {
+    
        stage('Deploy')
        {
            steps 
